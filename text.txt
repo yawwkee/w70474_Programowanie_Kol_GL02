@@ -1,0 +1,4 @@
+git push – polecenie służące do wypychania lokalnych zmian do zdalnego repozytorium
+git checkout - to czynność przełączania między różnymi wersjami obiektu docelowego.
+git commit - zapisuje zmiany w repozytorium z wiadomością podaną w
+cudzysłowie "poprawna forma pisania commit to - git commit -m "first commit"

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="#">
+        <p id="pole1" style="color: red;"></p>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="email" placeholder="wpisz swój email"><br>
+        <p id="pole2" style="color: red;"></p>
+        <label for="haslo">Hasło <br></label>
+        <input type="password" id="passwd" name="passdw" placeholder="podaj shoje haslo" minlength="3"><br>
+        <label for="counti">Podaj swój kraj</label><br>
+    <select name="country" id="counti" required>
+        <option>
+            <option value="Polska">Polska</option>
+            <option value="Ukraine">Ukraine</option>
+            <option value="Litwa">Litwa</option>
+            <option value="Niemcy">Niemcy</option>
+        </option><br>
+        <p id="pole3" style="color: red;"></p>
+        <label for="phone">Enter your phone number:</label><br>
+        <input type="tel" id="phone" name="phone"> 
+        <input type="button" id="button1" value="zapisz">
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
